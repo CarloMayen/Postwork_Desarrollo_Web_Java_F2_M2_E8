@@ -1,7 +1,7 @@
 package com.postwork_dw_java_f2_m2_e8.repository;
 
 import com.postwork_dw_java_f2_m2_e8.models.Materia;
-import org.junit.jupiter.api.BeforeAll;
+//import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -34,7 +34,7 @@ class MateriaRepositoryTest {
     @DisplayName("Guardar Materias")
     void guardarMaterias() {
         Materia materia = new Materia();
-        materia.setNombre("Java SE Fundamentals II");
+        materia.setNombre("Java Backend I");
         materia = materiaRepository.save(materia);
         assertNotNull(materia.getId());
 

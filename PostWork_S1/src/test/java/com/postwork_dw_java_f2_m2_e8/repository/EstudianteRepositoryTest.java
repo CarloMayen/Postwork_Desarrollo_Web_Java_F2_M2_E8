@@ -1,7 +1,7 @@
 package com.postwork_dw_java_f2_m2_e8.repository;
 
 import com.postwork_dw_java_f2_m2_e8.models.Estudiante;
-import org.junit.jupiter.api.BeforeAll;
+//import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -22,12 +22,11 @@ class EstudianteRepositoryTest {
     @Autowired
     private EstudianteRepository estudianteRepository;
 
-    /*
-    @BeforeAll
-    void cleanDatabase() {
-        estudianteRepository.deleteAll();
-    }
-    */
+    //@BeforeAll
+    //void cleanDatabase() {
+    //    estudianteRepository.deleteAll();
+    //}
+
     @Test
     @DisplayName("Guardar Estudiante")
     void guardarEstudiante() {
