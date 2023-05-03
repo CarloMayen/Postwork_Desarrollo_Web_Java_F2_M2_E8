@@ -32,7 +32,7 @@ class EstudianteRepositoryTest {
     @DisplayName("Guardar Estudiante")
     void guardarEstudiante() {
         Estudiante estudiante = new Estudiante();
-        estudiante.setNombreCompleto("Roberto Carlo Mayen Vazquez");
+        estudiante.setNombreCompleto("Maritza Montes Ramirez");
         estudiante = estudianteRepository.save(estudiante);
         assertNotNull(estudiante.getId());
     }
