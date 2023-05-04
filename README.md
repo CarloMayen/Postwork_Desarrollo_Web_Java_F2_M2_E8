@@ -24,7 +24,11 @@ Postworks del curso de java se II
 
 ## Postwork 5
 
-* En este Postwork se trabajo con programación reactiva, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades, con ayuda de rxjava se hizo una clase que nos permitió obtener el promedio a traves del objeto ***Mono*** que nos regreso el flujo de datos con **Flux**, esto se realizo dentro del paquete *reactive* y se probo con ayuda del archivo de testing en el paquete *src.test.java.com.postwork_dw_java_f2_m2_e8.reactive*.
+* En este Postwork se trabajo con programación reactiva, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades, con ayuda de rxjava se hizo una clase que nos permitió obtener el promedio a través del objeto ***Mono*** que nos regreso el flujo de datos con **Flux**, esto se realizo dentro del paquete *reactive* y se probo con ayuda del archivo de testing en el paquete *src.test.java.com.postwork_dw_java_f2_m2_e8.reactive*.
+
+## Postwork 6
+
+* En este Postwork se trabajo con los genéricos, las cuales usamos para agregar una clase con tres métodos genéricos, 2 para ordenar y uno para combinar listas, esto se realizo dentro del paquete *tool* y se probo con ayuda del archivo de testing en el paquete *src.test.java.com.postwork_dw_java_f2_m2_e8.tool.MergeSortAlgorithmTest*.
 
 ## Integrantes del equipo
 
