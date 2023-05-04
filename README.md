@@ -30,6 +30,16 @@ Postworks del curso de java se II
 
 * En este Postwork se trabajo con los genéricos, las cuales usamos para agregar una clase con tres métodos genéricos, 2 para ordenar y uno para combinar listas, esto se realizo dentro del paquete *tool* y se probo con ayuda del archivo de testing en el paquete *src.test.java.com.postwork_dw_java_f2_m2_e8.tool.MergeSortAlgorithmTest*.
 
+
+## Postwork 7
+
+* En este PostWork se hizo un proyecto diferente con solo una entidad (Empleado), para poder hacer una conexión con la base de datos pero esta ves con el gestor de *MongoDb*, asi haciendo una api rest con los métodos de buscar por id, buscar todos y actualizar.
+
+## Postwork 8
+
+* En este PostWork se centra en la revision del proyecto de *Estudiantes - Cursos - Materias*, y revisar que cumpla con las buenas practicas y de ser necesario re-factorizar el código.
+
+
 ## Integrantes del equipo
 
 ---
