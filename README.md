@@ -16,6 +16,6 @@ Postworks del curso de java se II
 
 * En este Postwork se trabajo con programación funcional, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades y poder hacer un reporte de curso, todo esto con ayuda de funciones lambda, esto se realizo dentro del paquete *tool*, este se probo con los archivos de testing en el paquete *src\test\java\com\postwork_dw_java_f2_m2_e8\tool*.
 
-# Postwork 3
+# Postwork 4
 
 * En este Postwork se trabajo con un loop, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades, se hizo un proceso en paralelo que se mantiene escuchando para recibir solicitud de crear cursos y administrarlos para darles respuesta, esto se realizo dentro del paquete *async* y se ejecuta desde la clase *InscripcionAlumnos*.
