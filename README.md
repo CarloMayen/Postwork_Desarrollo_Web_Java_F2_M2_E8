@@ -4,7 +4,7 @@ Postworks del curso de java se II
 
 ## Postwork 1
 
-* En este Postwork se inicia el proyecto, creando las entidades (Estudiante, Materia, Curso) y sus respectivos repositorios, ademas de crear de igual forma las entidades en la base de datos con sus respectivas relaciones, en este caso se uso el gestor MySql, de esta forma el propósito fue crear registros en dicha base de datos desde nuestra aplicación de Java, este se probo con los archivos de testing en el paquete *src\test\java\com\postwork_dw_java_f2_m2_e8\repository*.
+* En este Postwork se inicia el proyecto, creando las entidades (Estudiante, Materia, Curso) y sus respectivos repositorios, ademas de crear de igual forma las entidades en la base de datos con sus respectivas relaciones, en este caso se uso el gestor MySql, de esta forma el propósito fue crear registros en dicha base de datos desde nuestra aplicación de Java, este se probo con los archivos de testing en el paquete *sr.tes.jav.co.postwork_dw_java_f2_m2_e8.repository*.
 
 
 ## Postwork 2
@@ -14,11 +14,17 @@ Postworks del curso de java se II
 
 ## Postwork 3
 
-* En este Postwork se trabajo con programación funcional, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades y poder hacer un reporte de curso, todo esto con ayuda de funciones lambda, esto se realizo dentro del paquete *tool*, este se probo con los archivos de testing en el paquete *src\test\java\com\postwork_dw_java_f2_m2_e8\tool*.
+* En este Postwork se trabajo con programación funcional, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades y poder hacer un reporte de curso, todo esto con ayuda de funciones lambda, esto se realizo dentro del paquete *tool*, este se probo con los archivos de testing en el paquete *src.test.java.com.postwork_dw_java_f2_m2_e8.tool*.
+
 
 ## Postwork 4
 
 * En este Postwork se trabajo con un loop, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades, se hizo un proceso en paralelo que se mantiene escuchando para recibir solicitud de crear cursos y administrarlos para darles respuesta, esto se realizo dentro del paquete *async* y se ejecuta desde la clase *InscripcionAlumnos*.
+
+
+## Postwork 5
+
+* En este Postwork se trabajo con programación reactiva, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades, con ayuda de rxjava se hizo una clase que nos permitió obtener el promedio a traves del objeto ***Mono*** que nos regreso el flujo de datos con **Flux**, esto se realizo dentro del paquete *reactive* y se probo con ayuda del archivo de testing en el paquete *src.test.java.com.postwork_dw_java_f2_m2_e8.reactive*.
 
 ## Integrantes del equipo
 
