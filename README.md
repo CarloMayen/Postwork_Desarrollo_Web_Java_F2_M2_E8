@@ -9,4 +9,9 @@ Postworks del curso de java se II
 
 # Postwork 2
 
-* En este Postwork se trabajo con los hilos en java, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades y poder hacer un ejemplo de promedios por curso, todo esto a través de los hilos.
+* En este Postwork se trabajo con los hilos en java, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades y poder hacer un ejemplo de promedios por curso, todo esto a través de los hilos, , esto se realizo dentro del paquete *multithreading*.
+
+
+# Postwork 3
+
+* En este Postwork se trabajo con programación funcional, se hizo uso de las entidades creadas anteriormente en el Postwork 1, para poder simular la creación de dichas entidades y poder hacer un reporte de curso, todo esto con ayuda de funciones lambda, esto se realizo dentro del paquete *tool*.
