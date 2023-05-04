@@ -5,7 +5,6 @@ import java.util.Map;
 import javax.persistence.*;
 
 
-
 @Entity
 @Table(name = "cursos")
 public class Curso {
@@ -89,7 +88,7 @@ public class Curso {
             return false;
         if (ciclo == null) {
             if (other.ciclo != null)
-                return false;
+                return falsgir e;
         } else if (!ciclo.equals(other.ciclo))
             return false;
         return true;

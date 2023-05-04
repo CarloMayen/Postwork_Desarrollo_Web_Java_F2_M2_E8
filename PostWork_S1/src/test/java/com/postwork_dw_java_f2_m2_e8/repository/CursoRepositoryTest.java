@@ -3,6 +3,7 @@ package com.postwork_dw_java_f2_m2_e8.repository;
 import com.postwork_dw_java_f2_m2_e8.models.Curso;
 import com.postwork_dw_java_f2_m2_e8.models.Estudiante;
 import com.postwork_dw_java_f2_m2_e8.models.Materia;
+//import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -12,10 +13,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import java.util.HashMap;
 import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @ComponentScan(basePackages = "com.postwork_dw_java_f2_m2_e8")
@@ -29,6 +30,13 @@ class CursoRepositoryTest {
     private MateriaRepository materiaRepository;
     @Autowired
     private CursoRepository cursoRepository;
+
+    //@BeforeAll
+    //void borrarDataBases() {
+    //    cursoRepository.deleteAll();
+    //    materiaRepository.deleteAll();
+    //    estudianteRepository.deleteAll();
+    //}
 
     @Test
     @DisplayName("Guardar cursos")
@@ -46,7 +54,6 @@ class CursoRepositoryTest {
     void testCalificaciones() {
         // Obtenemos los datos almacenados en nuestra base de datos
         Estudiante estudiante = estudianteRepository.findById(1L).get();
-        Materia materia = materiaRepository.findById(1L).get();
         Curso curso = cursoRepository.findById(1L).get();
 
         //Creamos una calificacion
