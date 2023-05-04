@@ -40,7 +40,7 @@ public class Postwork2 {
                 crearCurso(r, "Java SE I", 1L),
                 crearCurso(r, "Java SE II", 2L),
                 crearCurso(r, "Java Backend I", 3L),
-                crearCurso(r, "Java Backend I", 4L),
+                crearCurso(r, "Java Backend II", 4L),
                 crearCurso(r, "Mysql I", 5L)
 
         };
