@@ -22,13 +22,10 @@ class MateriaRepositoryTest {
     @Autowired
     private MateriaRepository materiaRepository;
 
-    /* Este medoto borra la base de datos antes de cada prueba pero esta desahilitada para tener
-        datos para posteriores pruebas
-    @BeforeAll
-    void cleanDatabase() {
-        materiaRepository.deleteAll();
-    }
-    */
+    //@BeforeAll
+    //void cleanDatabase() {
+    //    materiaRepository.deleteAll();
+    //}
 
     @Test
     @DisplayName("Guardar Materias")
